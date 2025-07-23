@@ -1,0 +1,49 @@
+# Macro file for example B4
+#
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+# 
+# change the default number of workers (in multi-threading mode)
+#/run/numberOfThreads 4
+#
+# Kind of tutorial:
+# interactively with visualization, issue the commands one by one:
+# Idle> gun/particle mu+
+# Idle> ...etc... 
+#
+
+#
+# set the shield thickness and material
+#
+# Initialize kernel
+/run/initialize
+#
+# pion 2000 MeV in direction (0.,0.,1.)
+#/gun/particle pi+
+#/gun/energy 2000 MeV
+#
+/run/output/enableRoot true
+# /run/output/fileName test.root
+# /run/output/directory ./temp_out/
+/run/beamOn 5000
+
+
+# #
+# /run/printProgress 5
+# /run/beamOn 10
+# #
+# # inactivate multiple scattering process
+# /process/inactivate msc
+# /run/beamOn 10
+# #
+# # set a magnetic field 
+# /globalField/setValue 2 0 0 tesla
+# /run/beamOn 10
+# #
+# # re-activate multiple scattering
+# /process/activate msc
+# /run/beamOn 10
+# #
+# # verbosity
+# /tracking/verbose 2
+# /run/beamOn 1

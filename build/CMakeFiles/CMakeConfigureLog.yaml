@@ -1,0 +1,755 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/hghu/test/build/CMakeFiles/3.30.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/hghu/test/build/CMakeFiles/3.30.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq"
+      binary: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq'
+        
+        Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_cbda3/fast
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_cbda3.dir/build.make CMakeFiles/cmTC_cbda3.dir/build
+        gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq'
+        Building C object CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o
+        /usr/bin/gcc   -v -o CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -c /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cbda3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc7P90t5.s
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        ignoring duplicate directory "."
+          as it is a non-system directory that duplicates a system directory
+        ignoring duplicate directory "."
+          as it is a non-system directory that duplicates a system directory
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include
+         .
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/'
+         as -v --64 -o CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o /tmp/cc7P90t5.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_cbda3
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbda3.dir/link.txt --verbose=1
+        /usr/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -o cmTC_cbda3
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cbda3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cbda3.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzbkkS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cbda3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzbkkS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cbda3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cbda3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cbda3.'
+        gmake[1]: Leaving directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include]
+          add: [.]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include]
+        skipping relative include dir [.]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq']
+        ignore line: []
+        ignore line: [Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_cbda3/fast]
+        ignore line: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_cbda3.dir/build.make CMakeFiles/cmTC_cbda3.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-pbZxbq']
+        ignore line: [Building C object CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -c /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_cbda3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc7P90t5.s]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "."]
+        ignore line: [  as it is a non-system directory that duplicates a system directory]
+        ignore line: [ignoring duplicate directory "."]
+        ignore line: [  as it is a non-system directory that duplicates a system directory]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/include]
+        ignore line: [ .]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o /tmp/cc7P90t5.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_cbda3]
+        ignore line: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbda3.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/gcc  -v -Wl -v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -o cmTC_cbda3]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cbda3' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_cbda3.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzbkkS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cbda3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXzbkkS.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_cbda3] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXzbkkS.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_cbda3 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_cbda3.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn"
+      binary: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn'
+        
+        Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_00627/fast
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_00627.dir/build.make CMakeFiles/cmTC_00627.dir/build
+        gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn'
+        Building CXX object CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/g++   -v -o CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFqxelB.s
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        ignoring duplicate directory "."
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include
+         .
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3
+         /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/'
+         as -v --64 -o CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFqxelB.s
+        GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_00627
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00627.dir/link.txt --verbose=1
+        /usr/bin/g++  -v -Wl,-v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_00627
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00627.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMSnvEL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_00627 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 11.4.0
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMSnvEL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_00627 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.38
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00627.'
+        gmake[1]: Leaving directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+          add: [.]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+          add: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+        skipping relative include dir [.]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+        collapse include dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6;/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn']
+        ignore line: []
+        ignore line: [Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_00627/fast]
+        ignore line: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_00627.dir/build.make CMakeFiles/cmTC_00627.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-EJfaGn']
+        ignore line: [Building CXX object CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/g++   -v -o CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -c /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_00627.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccFqxelB.s]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "."]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/vdt/0.4.4-4khnbe/include]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/physsim/0.5-6vnrmx/include/physsim]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/include]
+        ignore line: [ .]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-03/x86_64-ubuntu22.04-gcc11.4.0-opt/kaldet/1.14.1-usbpm3/include/kaldet]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/kaltest/2.5.2-772nk6/include/kaltest]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/eigen/3.4.0-nxw2ex/include/eigen3]
+        ignore line: [ /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/lcio/2.22.2-skblv6]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccFqxelB.s]
+        ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_00627]
+        ignore line: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00627.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/g++  -v -Wl -v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_00627]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/:/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/:./:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_00627' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_00627.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMSnvEL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_00627 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMSnvEL.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_00627] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+          arg [-L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib] ==> dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+          arg [-L.] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 11.4.0]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMSnvEL.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_00627 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib -L/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib -L. -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. -v CMakeFiles/cmTC_00627.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib/../lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib/../lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib]
+        collapse library dir [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib] ==> [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/libzmq/4.3.5-qyaogq/lib;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/intel-oneapi-mkl/2024.2.1-7hguom/mkl/2024.2/lib;/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.38
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/geant4/11.2.2-2fpwoq/lib/cmake/Geant4/PTL/PTLConfig.cmake:56 (find_dependency)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/geant4/11.2.2-2fpwoq/lib/cmake/Geant4/Geant4Config.cmake:286 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk"
+      binary: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/geant4/11.2.2-2fpwoq/lib/cmake/Geant4/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk'
+        
+        Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_ee5b7/fast
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_ee5b7.dir/build.make CMakeFiles/cmTC_ee5b7.dir/build
+        gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk'
+        Building C object CMakeFiles/cmTC_ee5b7.dir/src.c.o
+        /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ee5b7.dir/src.c.o -c /home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk/src.c
+        Linking C executable cmTC_ee5b7
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee5b7.dir/link.txt --verbose=1
+        /usr/bin/gcc CMakeFiles/cmTC_ee5b7.dir/src.c.o -o cmTC_ee5b7
+        gmake[1]: Leaving directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-ZlnMEk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/geant4/11.2.2-2fpwoq/lib/cmake/Geant4/Geant4Config.cmake:394 (find_dependency)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m"
+      binary: "/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/geant4/11.2.2-2fpwoq/lib/cmake/Geant4/Modules;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/qt-base/6.7.2-cfjgyy/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m'
+        
+        Run Build Command(s): /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E env VERBOSE=1 /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake -f Makefile cmTC_4e866/fast
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/gmake/4.4.1-d4dx55/bin/gmake  -f CMakeFiles/cmTC_4e866.dir/build.make CMakeFiles/cmTC_4e866.dir/build
+        gmake[1]: Entering directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m'
+        Building CXX object CMakeFiles/cmTC_4e866.dir/src.cxx.o
+        /usr/bin/g++ -DHAVE_STDATOMIC   -o CMakeFiles/cmTC_4e866.dir/src.cxx.o -c /home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m/src.cxx
+        Linking CXX executable cmTC_4e866
+        /cvmfs/sw.hsf.org/key4hep/releases/2024-10-28/x86_64-ubuntu22.04-gcc11.4.0-opt/cmake/3.30.2-ii4ckx/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e866.dir/link.txt --verbose=1
+        /usr/bin/g++ CMakeFiles/cmTC_4e866.dir/src.cxx.o -o cmTC_4e866
+        gmake[1]: Leaving directory '/home/hghu/test/build/CMakeFiles/CMakeScratch/TryCompile-9Hdi7m'
+        
+      exitCode: 0
+...

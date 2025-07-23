@@ -1,0 +1,35 @@
+
+/process/had/verbose 0      # 禁用强子过程输出
+/process/em/verbose 0       # 禁用电磁过程输出
+/run/initialize
+/tracking/verbose 0 # 禁用跟踪输出，debug时可以打开
+#
+# pion 2000 MeV in direction (0.,0.,1.)
+#/gun/particle pi+
+/gun/energy 7000 MeV
+#
+
+/run/output/enableRoot true
+# /run/output/fileName test.root
+# /run/output/directory ./temp_out/
+/run/beamOn 50000
+
+# #
+# /run/printProgress 5
+# /run/beamOn 10
+# #
+# # inactivate multiple scattering process
+# /process/inactivate msc
+# /run/beamOn 10
+# #
+# # set a magnetic field 
+# /globalField/setValue 2 0 0 tesla
+# /run/beamOn 10
+# #
+# # re-activate multiple scattering
+# /process/activate msc
+# /run/beamOn 10
+# #
+# # verbosity
+# /tracking/verbose 2
+# /run/beamOn 1

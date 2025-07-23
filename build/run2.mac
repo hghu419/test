@@ -1,0 +1,13 @@
+#
+# set the shield thickness and material
+/det/shieldThickness 50 cm
+/det/shieldMaterial G4_Pb
+#
+# Initialize kernel
+/run/initialize
+#
+# pion 2000 MeV in direction (0.,0.,1.)
+/gun/particle pi+
+/gun/energy 2000 MeV
+#
+/run/beamOn 10000

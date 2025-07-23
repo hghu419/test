@@ -1,0 +1,3 @@
+/home/hghu/test/build/CMakeFiles/exampleB4a.dir
+/home/hghu/test/build/CMakeFiles/edit_cache.dir
+/home/hghu/test/build/CMakeFiles/rebuild_cache.dir
